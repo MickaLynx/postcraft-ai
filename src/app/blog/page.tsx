@@ -7,6 +7,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'content-fatigue-influencer-vetting-roi-guide',
+    title: 'Content Fatigue Detector + Influencer Vetting + Content ROI Tracker: The Complete Data-Driven Guide 2026',
+    excerpt: 'Detect audience content fatigue before engagement drops, vet influencers with 7-dimension authenticity scoring and red flag detection, and track real content ROI with multi-touch attribution modeling. Three essential tools for data-driven social media strategy.',
+    date: '2026-04-16',
+    readTime: '35 min read',
+    tags: ['Content Fatigue', 'Influencer Vetting', 'Content ROI', 'Authenticity Scoring', 'Attribution'],
+  },
+  {
     slug: 'content-scoring-audience-segmentation-guide',
     title: 'Content Scoring & Audience Segmentation: The Complete 2026 Guide to Data-Driven Content Strategy',
     excerpt: 'Master the 8-dimension content scoring matrix and audience segmentation engine. Score content across relevance, quality, engagement, SEO, and more. Segment audiences into actionable groups with buyer personas, channel strategies, content maps, and growth tactics.',

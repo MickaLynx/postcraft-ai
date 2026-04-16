@@ -174,5 +174,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/ecosystem-mapper`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/conversation-depth-ecosystem-mapper-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/influencer-vetting`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/content-fatigue`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/content-fatigue-influencer-vetting-roi-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }

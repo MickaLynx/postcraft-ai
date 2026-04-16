@@ -153,6 +153,7 @@ const jsonLd = [
       { '@type': 'ListItem', position: 109, name: 'Conversation Depth Predictor', item: 'https://postcraft.ai/conversation-depth' },
       { '@type': 'ListItem', position: 110, name: 'Ecosystem Relevance Mapper', item: 'https://postcraft.ai/ecosystem-mapper' },
       { '@type': 'ListItem', position: 111, name: 'Influencer Vetting Tool', item: 'https://postcraft.ai/influencer-vetting' },
+      { '@type': 'ListItem', position: 112, name: 'Content Fatigue Detector', item: 'https://postcraft.ai/content-fatigue' },
     ],
   },
 ];
@@ -285,6 +286,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/audience-segmentation" className="text-zinc-400 hover:text-white transition">Segments</a>
             <a href="/conversation-depth" className="text-zinc-400 hover:text-white transition">Depth</a>
             <a href="/ecosystem-mapper" className="text-zinc-400 hover:text-white transition">Ecosystem</a>
+            <a href="/content-fatigue" className="text-zinc-400 hover:text-white transition">Fatigue</a>
+            <a href="/content-roi" className="text-zinc-400 hover:text-white transition">Content ROI</a>
+            <a href="/influencer-vetting" className="text-zinc-400 hover:text-white transition">Vetting</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
