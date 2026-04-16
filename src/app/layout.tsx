@@ -94,9 +94,27 @@ const jsonLd = [
       { '@type': 'ListItem', position: 52, name: 'Retention Playbook', item: 'https://postcraft.ai/retention-playbook' },
       { '@type': 'ListItem', position: 53, name: 'Competitor Comparison', item: 'https://postcraft.ai/competitor-comparison' },
       { '@type': 'ListItem', position: 54, name: 'Onboarding Emails', item: 'https://postcraft.ai/onboarding-emails' },
-      { '@type': 'ListItem', position: 55, name: 'Story Arc Generator', item: 'https://postcraft.ai/story-arc' },
+      { '@type': 'ListItem', position: 55, name: 'KPI Dashboard', item: 'https://postcraft.ai/kpi-dashboard' },
+      { '@type': 'ListItem', position: 56, name: 'Landing Page Copy', item: 'https://postcraft.ai/landing-copy' },
+      { '@type': 'ListItem', position: 56, name: 'Story Arc Generator', item: 'https://postcraft.ai/story-arc' },
       { '@type': 'ListItem', position: 56, name: 'Content Velocity', item: 'https://postcraft.ai/content-velocity' },
-      { '@type': 'ListItem', position: 57, name: 'Blog', item: 'https://postcraft.ai/blog' },
+      { '@type': 'ListItem', position: 57, name: 'Content Formatter', item: 'https://postcraft.ai/content-formatter' },
+      { '@type': 'ListItem', position: 58, name: 'Audience Pulse', item: 'https://postcraft.ai/audience-pulse' },
+      { '@type': 'ListItem', position: 59, name: 'Trend Mapper', item: 'https://postcraft.ai/trend-mapper' },
+      { '@type': 'ListItem', position: 60, name: 'Content Brief', item: 'https://postcraft.ai/content-brief' },
+      { '@type': 'ListItem', position: 61, name: 'Social Inbox', item: 'https://postcraft.ai/social-inbox' },
+      { '@type': 'ListItem', position: 62, name: 'Ad Budget Optimizer', item: 'https://postcraft.ai/ad-budget' },
+      { '@type': 'ListItem', position: 63, name: 'Algorithm Tracker', item: 'https://postcraft.ai/algorithm-tracker' },
+      { '@type': 'ListItem', position: 64, name: 'Topic Miner', item: 'https://postcraft.ai/topic-miner' },
+      { '@type': 'ListItem', position: 65, name: 'Community Manager', item: 'https://postcraft.ai/community-manager' },
+      { '@type': 'ListItem', position: 66, name: 'Paid Social Planner', item: 'https://postcraft.ai/paid-social' },
+      { '@type': 'ListItem', position: 67, name: 'Blog', item: 'https://postcraft.ai/blog' },
+      { '@type': 'ListItem', position: 68, name: 'Intent Analyzer', item: 'https://postcraft.ai/intent-analyzer' },
+      { '@type': 'ListItem', position: 69, name: 'Brand Checker', item: 'https://postcraft.ai/brand-checker' },
+      { '@type': 'ListItem', position: 70, name: 'Emotion Mapper', item: 'https://postcraft.ai/emotion-mapper' },
+      { '@type': 'ListItem', position: 71, name: 'Cross-Platform Adapter', item: 'https://postcraft.ai/cross-platform' },
+      { '@type': 'ListItem', position: 72, name: 'Audience Growth Planner', item: 'https://postcraft.ai/audience-growth' },
+      { '@type': 'ListItem', position: 73, name: 'Sponsorship Pitch Generator', item: 'https://postcraft.ai/sponsorship-pitch' },
     ],
   },
 ];
@@ -174,8 +192,26 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/retention-playbook" className="text-zinc-400 hover:text-white transition">Retention</a>
             <a href="/competitor-comparison" className="text-zinc-400 hover:text-white transition">Compare</a>
             <a href="/onboarding-emails" className="text-zinc-400 hover:text-white transition">Emails</a>
+            <a href="/kpi-dashboard" className="text-zinc-400 hover:text-white transition">KPIs</a>
+            <a href="/landing-copy" className="text-zinc-400 hover:text-white transition">Landing Copy</a>
             <a href="/story-arc" className="text-zinc-400 hover:text-white transition">Story Arc</a>
             <a href="/content-velocity" className="text-zinc-400 hover:text-white transition">Velocity</a>
+            <a href="/content-formatter" className="text-zinc-400 hover:text-white transition">Formatter</a>
+            <a href="/audience-pulse" className="text-zinc-400 hover:text-white transition">Pulse</a>
+            <a href="/trend-mapper" className="text-zinc-400 hover:text-white transition">Trend Map</a>
+            <a href="/content-brief" className="text-zinc-400 hover:text-white transition">Brief</a>
+            <a href="/social-inbox" className="text-zinc-400 hover:text-white transition">Inbox</a>
+            <a href="/ad-budget" className="text-zinc-400 hover:text-white transition">Ad Budget</a>
+            <a href="/algorithm-tracker" className="text-zinc-400 hover:text-white transition">Algorithm</a>
+            <a href="/topic-miner" className="text-zinc-400 hover:text-white transition">Topics</a>
+            <a href="/community-manager" className="text-zinc-400 hover:text-white transition">Community</a>
+            <a href="/paid-social" className="text-zinc-400 hover:text-white transition">Paid Social</a>
+            <a href="/intent-analyzer" className="text-zinc-400 hover:text-white transition">Intent</a>
+            <a href="/brand-checker" className="text-zinc-400 hover:text-white transition">Brand Check</a>
+            <a href="/audience-growth" className="text-zinc-400 hover:text-white transition">Growth Plan</a>
+            <a href="/sponsorship-pitch" className="text-zinc-400 hover:text-white transition">Sponsorship</a>
+            <a href="/emotion-mapper" className="text-zinc-400 hover:text-white transition">Emotions</a>
+            <a href="/cross-platform" className="text-zinc-400 hover:text-white transition">Cross-Platform</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>

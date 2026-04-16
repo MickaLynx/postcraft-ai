@@ -7,6 +7,38 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'audience-growth-sponsorship-pitch-guide',
+    title: 'Audience Growth Planner & Sponsorship Pitch Generator: Scale and Monetize Your Following',
+    excerpt: 'Strategic audience growth roadmaps with milestones, platform hacks, and weekly action plans. Plus: professional sponsorship pitch templates, media kit stats, deliverable packages, negotiation tips, and follow-up sequences.',
+    date: '2026-04-16',
+    readTime: '25 min read',
+    tags: ['Audience Growth', 'Sponsorship', 'Brand Deals', 'Creator Economy', 'Monetization'],
+  },
+  {
+    slug: 'community-manager-paid-social-guide',
+    title: 'Community Management & Paid Social Strategy: The Complete 2026 Guide',
+    excerpt: 'Master community engagement playbooks, ambassador programs, moderation frameworks, and paid social campaign planning. Budget allocation, A/B testing, audience segmentation, creative briefs, and scaling roadmaps.',
+    date: '2026-04-16',
+    readTime: '25 min read',
+    tags: ['Community Management', 'Paid Social', 'Ambassador Programs', 'Ad Campaigns', 'ROAS'],
+  },
+  {
+    slug: 'algorithm-tracker-topic-miner-guide',
+    title: 'Master Social Media Algorithms & Discover Untapped Topics with AI',
+    excerpt: 'Decode platform algorithms and mine untapped content topics. Ranking factors, penalty zones, golden topics, emerging narratives, content gaps, and a step-by-step workflow combining both tools for maximum reach.',
+    date: '2026-04-16',
+    readTime: '23 min read',
+    tags: ['Algorithm Tracking', 'Topic Mining', 'Content Discovery', 'Platform Strategy'],
+  },
+  {
+    slug: 'content-formatter-audience-pulse-guide',
+    title: 'Cross-Platform Content Formatting & Audience Sentiment Analysis: The Complete 2026 Guide',
+    excerpt: 'Master AI-powered content formatting across 9 platforms and real-time audience pulse tracking. The ADAPT framework, sentiment response systems, content predictions, competitor benchmarking, and the combined workflow for maximum impact.',
+    date: '2026-04-16',
+    readTime: '22 min read',
+    tags: ['Content Formatting', 'Audience Pulse', 'Sentiment Analysis', 'Cross-Platform', 'Strategy'],
+  },
+  {
     slug: 'story-arc-content-velocity-guide',
     title: 'Story Arc Generation & Content Velocity: The Complete 2026 Guide to Building a Content Machine',
     excerpt: 'Master narrative story arcs for social video content and optimize your content velocity. 10 arc styles, 7-beat structure, retention curve optimization, velocity scoring, batch production, and the 90-day acceleration plan.',
