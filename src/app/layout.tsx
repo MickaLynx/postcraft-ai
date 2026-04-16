@@ -75,7 +75,20 @@ const jsonLd = [
       { '@type': 'ListItem', position: 33, name: 'Poll & Quiz', item: 'https://postcraft.ai/poll-quiz' },
       { '@type': 'ListItem', position: 34, name: 'Emotional Analyzer', item: 'https://postcraft.ai/emotional-analyzer' },
       { '@type': 'ListItem', position: 35, name: 'Video Pacing', item: 'https://postcraft.ai/video-pacing' },
-      { '@type': 'ListItem', position: 36, name: 'Blog', item: 'https://postcraft.ai/blog' },
+      { '@type': 'ListItem', position: 36, name: 'Comment Reply', item: 'https://postcraft.ai/comment-reply' },
+      { '@type': 'ListItem', position: 37, name: 'Link in Bio', item: 'https://postcraft.ai/link-in-bio' },
+      { '@type': 'ListItem', position: 38, name: 'Story Planner', item: 'https://postcraft.ai/story-planner' },
+      { '@type': 'ListItem', position: 39, name: 'Content Recycler', item: 'https://postcraft.ai/content-recycler' },
+      { '@type': 'ListItem', position: 40, name: 'Competitor Tracker', item: 'https://postcraft.ai/competitor-tracker' },
+      { '@type': 'ListItem', position: 41, name: 'Conversion Optimizer', item: 'https://postcraft.ai/conversion-optimizer' },
+      { '@type': 'ListItem', position: 42, name: 'Influencer Outreach', item: 'https://postcraft.ai/influencer-outreach' },
+      { '@type': 'ListItem', position: 43, name: 'Content Pillars', item: 'https://postcraft.ai/content-pillars' },
+      { '@type': 'ListItem', position: 44, name: 'Content Gap Analyzer', item: 'https://postcraft.ai/content-gap' },
+      { '@type': 'ListItem', position: 45, name: 'Angle Generator', item: 'https://postcraft.ai/angle-generator' },
+      { '@type': 'ListItem', position: 46, name: 'Ad Copy Generator', item: 'https://postcraft.ai/ad-copy' },
+      { '@type': 'ListItem', position: 47, name: 'Meme Generator', item: 'https://postcraft.ai/meme-generator' },
+      { '@type': 'ListItem', position: 48, name: 'Monthly Report', item: 'https://postcraft.ai/monthly-report' },
+      { '@type': 'ListItem', position: 49, name: 'Blog', item: 'https://postcraft.ai/blog' },
     ],
   },
 ];
@@ -127,6 +140,26 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/poll-quiz" className="text-zinc-400 hover:text-white transition">Polls</a>
             <a href="/emotional-analyzer" className="text-zinc-400 hover:text-white transition">Emotions</a>
             <a href="/video-pacing" className="text-zinc-400 hover:text-white transition">Pacing</a>
+            <a href="/comment-reply" className="text-zinc-400 hover:text-white transition">Replies</a>
+            <a href="/link-in-bio" className="text-zinc-400 hover:text-white transition">Bio Links</a>
+            <a href="/story-planner" className="text-zinc-400 hover:text-white transition">Stories</a>
+            <a href="/content-recycler" className="text-zinc-400 hover:text-white transition">Recycler</a>
+            <a href="/growth-calculator" className="text-zinc-400 hover:text-white transition">Growth</a>
+            <a href="/content-scorecard" className="text-zinc-400 hover:text-white transition">Score</a>
+            <a href="/collab-brief" className="text-zinc-400 hover:text-white transition">Collabs</a>
+            <a href="/social-proof" className="text-zinc-400 hover:text-white transition">Proof</a>
+            <a href="/hashtag-analytics" className="text-zinc-400 hover:text-white transition">Tag Analytics</a>
+            <a href="/content-remix" className="text-zinc-400 hover:text-white transition">Remix</a>
+            <a href="/dm-scripts" className="text-zinc-400 hover:text-white transition">DM Scripts</a>
+            <a href="/competitor-tracker" className="text-zinc-400 hover:text-white transition">Tracker</a>
+            <a href="/conversion-optimizer" className="text-zinc-400 hover:text-white transition">Conversion</a>
+            <a href="/influencer-outreach" className="text-zinc-400 hover:text-white transition">Outreach</a>
+            <a href="/content-pillars" className="text-zinc-400 hover:text-white transition">Pillars</a>
+            <a href="/content-gap" className="text-zinc-400 hover:text-white transition">Gap Analysis</a>
+            <a href="/ad-copy" className="text-zinc-400 hover:text-white transition">Ad Copy</a>
+            <a href="/angle-generator" className="text-zinc-400 hover:text-white transition">Angles</a>
+            <a href="/meme-generator" className="text-zinc-400 hover:text-white transition">Memes</a>
+            <a href="/monthly-report" className="text-zinc-400 hover:text-white transition">Report</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
