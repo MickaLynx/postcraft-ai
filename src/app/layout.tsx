@@ -173,6 +173,10 @@ const jsonLd = [
       { '@type': 'ListItem', position: 129, name: 'Content Licensing Tracker', item: 'https://postcraft.ai/content-licensing' },
       { '@type': 'ListItem', position: 130, name: 'Content Automation Engine', item: 'https://postcraft.ai/content-automation' },
       { '@type': 'ListItem', position: 131, name: 'AI Ghostwriter', item: 'https://postcraft.ai/ghostwriter' },
+      { '@type': 'ListItem', position: 132, name: 'Audience Persona Sync', item: 'https://postcraft.ai/audience-persona-sync' },
+      { '@type': 'ListItem', position: 133, name: 'Content Scheduling Optimizer', item: 'https://postcraft.ai/scheduling-optimizer' },
+      { '@type': 'ListItem', position: 134, name: 'Content Deadline Tracker', item: 'https://postcraft.ai/deadline-tracker' },
+      { '@type': 'ListItem', position: 135, name: 'Social Media Template Library', item: 'https://postcraft.ai/template-library' },
     ],
   },
 ];
@@ -327,6 +331,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/content-licensing" className="text-zinc-400 hover:text-white transition">Licensing</a>
             <a href="/content-automation" className="text-zinc-400 hover:text-white transition">Automation</a>
             <a href="/ghostwriter" className="text-zinc-400 hover:text-white transition">Ghostwriter</a>
+            <a href="/audience-persona-sync" className="text-zinc-400 hover:text-white transition">Persona Sync</a>
+            <a href="/scheduling-optimizer" className="text-zinc-400 hover:text-white transition">Scheduling</a>
+            <a href="/deadline-tracker" className="text-zinc-400 hover:text-white transition">Deadlines</a>
+            <a href="/template-library" className="text-zinc-400 hover:text-white transition">Templates</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>

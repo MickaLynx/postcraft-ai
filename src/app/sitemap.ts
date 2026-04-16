@@ -202,5 +202,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/content-automation`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/ghostwriter`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/content-automation-ghostwriter-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/audience-persona-sync`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/scheduling-optimizer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/audience-persona-scheduling-optimizer-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/deadline-tracker`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/template-library`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/deadline-tracker-template-library-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }
