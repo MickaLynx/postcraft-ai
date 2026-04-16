@@ -154,6 +154,12 @@ const jsonLd = [
       { '@type': 'ListItem', position: 110, name: 'Ecosystem Relevance Mapper', item: 'https://postcraft.ai/ecosystem-mapper' },
       { '@type': 'ListItem', position: 111, name: 'Influencer Vetting Tool', item: 'https://postcraft.ai/influencer-vetting' },
       { '@type': 'ListItem', position: 112, name: 'Content Fatigue Detector', item: 'https://postcraft.ai/content-fatigue' },
+      { '@type': 'ListItem', position: 113, name: 'Content Integrity Checker', item: 'https://postcraft.ai/content-integrity' },
+      { '@type': 'ListItem', position: 114, name: 'Intent Flow Optimizer', item: 'https://postcraft.ai/intent-flow' },
+      { '@type': 'ListItem', position: 115, name: 'AI Storytelling Engine', item: 'https://postcraft.ai/storytelling-engine' },
+      { '@type': 'ListItem', position: 116, name: 'Audience Loyalty Tracker', item: 'https://postcraft.ai/audience-loyalty' },
+      { '@type': 'ListItem', position: 117, name: 'Content DNA Profiler', item: 'https://postcraft.ai/content-dna' },
+      { '@type': 'ListItem', position: 118, name: 'Audience Mood Mapper', item: 'https://postcraft.ai/audience-mood' },
     ],
   },
 ];
@@ -289,6 +295,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/content-fatigue" className="text-zinc-400 hover:text-white transition">Fatigue</a>
             <a href="/content-roi" className="text-zinc-400 hover:text-white transition">Content ROI</a>
             <a href="/influencer-vetting" className="text-zinc-400 hover:text-white transition">Vetting</a>
+            <a href="/content-integrity" className="text-zinc-400 hover:text-white transition">Integrity</a>
+            <a href="/intent-flow" className="text-zinc-400 hover:text-white transition">Intent Flow</a>
+            <a href="/storytelling-engine" className="text-zinc-400 hover:text-white transition">Storytelling</a>
+            <a href="/audience-loyalty" className="text-zinc-400 hover:text-white transition">Loyalty</a>
+            <a href="/content-dna" className="text-zinc-400 hover:text-white transition">Content DNA</a>
+            <a href="/audience-mood" className="text-zinc-400 hover:text-white transition">Mood Map</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>

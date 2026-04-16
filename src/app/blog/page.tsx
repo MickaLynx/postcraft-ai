@@ -7,6 +7,22 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'content-dna-audience-mood-guide',
+    title: 'Content DNA & Audience Mood: Extract Your Unique Voice and Match It to How Your Audience Feels',
+    excerpt: 'Profile your content DNA — voice traits, style signature, emotional profile, content archetypes — then map your audience mood to time and tone every post for maximum emotional resonance.',
+    date: '2026-04-16',
+    readTime: '22 min read',
+    tags: ['Content DNA', 'Audience Mood', 'Voice Profiling', 'Emotional Timing', 'Brand Identity'],
+  },
+  {
+    slug: 'content-integrity-intent-flow-guide',
+    title: 'Content Integrity & Intent Flow: The Complete Guide to Consistent, High-Converting Content',
+    excerpt: 'Audit your content ecosystem for factual drift, brand inconsistencies, and compliance risks. Then optimize every element — headings, CTAs, tone, internal links — for conversion with intent flow mapping.',
+    date: '2026-04-16',
+    readTime: '25 min read',
+    tags: ['Content Integrity', 'Intent Flow', 'Conversion Optimization', 'Brand Consistency', 'Compliance'],
+  },
+  {
     slug: 'content-fatigue-influencer-vetting-roi-guide',
     title: 'Content Fatigue Detector + Influencer Vetting + Content ROI Tracker: The Complete Data-Driven Guide 2026',
     excerpt: 'Detect audience content fatigue before engagement drops, vet influencers with 7-dimension authenticity scoring and red flag detection, and track real content ROI with multi-touch attribution modeling. Three essential tools for data-driven social media strategy.',

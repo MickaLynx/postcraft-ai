@@ -176,5 +176,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/influencer-vetting`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/content-fatigue`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/content-fatigue-influencer-vetting-roi-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/content-integrity`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/intent-flow`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/content-integrity-intent-flow-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/storytelling-engine`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/audience-loyalty`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/storytelling-engine-audience-loyalty-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/content-dna`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/audience-mood`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/content-dna-audience-mood-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }
