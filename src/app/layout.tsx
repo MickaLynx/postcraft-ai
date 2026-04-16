@@ -123,6 +123,12 @@ const jsonLd = [
       { '@type': 'ListItem', position: 79, name: 'Content Scaler', item: 'https://postcraft.ai/content-scaler' },
       { '@type': 'ListItem', position: 80, name: 'Ad Compliance Scanner', item: 'https://postcraft.ai/ad-scanner' },
       { '@type': 'ListItem', position: 81, name: 'Content Benchmark', item: 'https://postcraft.ai/content-benchmark' },
+      { '@type': 'ListItem', position: 82, name: 'Content Rewriter', item: 'https://postcraft.ai/content-rewriter' },
+      { '@type': 'ListItem', position: 83, name: 'Competitor Spy', item: 'https://postcraft.ai/competitor-spy' },
+      { '@type': 'ListItem', position: 84, name: 'Bulk Content Generator', item: 'https://postcraft.ai/bulk-generator' },
+      { '@type': 'ListItem', position: 85, name: 'Performance Predictor', item: 'https://postcraft.ai/performance-predictor' },
+      { '@type': 'ListItem', position: 86, name: 'ToneGuard', item: 'https://postcraft.ai/tone-guard' },
+      { '@type': 'ListItem', position: 87, name: 'Cultural Pulse', item: 'https://postcraft.ai/cultural-pulse' },
     ],
   },
 ];
@@ -228,6 +234,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/content-scaler" className="text-zinc-400 hover:text-white transition">Scaler</a>
             <a href="/ad-scanner" className="text-zinc-400 hover:text-white transition">Ad Scanner</a>
             <a href="/content-benchmark" className="text-zinc-400 hover:text-white transition">Benchmark</a>
+            <a href="/content-rewriter" className="text-zinc-400 hover:text-white transition">Rewriter</a>
+            <a href="/competitor-spy" className="text-zinc-400 hover:text-white transition">Spy</a>
+            <a href="/bulk-generator" className="text-zinc-400 hover:text-white transition">Bulk Gen</a>
+            <a href="/performance-predictor" className="text-zinc-400 hover:text-white transition">Predictor</a>
+            <a href="/tone-guard" className="text-zinc-400 hover:text-white transition">ToneGuard</a>
+            <a href="/cultural-pulse" className="text-zinc-400 hover:text-white transition">Cultural Pulse</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
