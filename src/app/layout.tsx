@@ -160,6 +160,12 @@ const jsonLd = [
       { '@type': 'ListItem', position: 116, name: 'Audience Loyalty Tracker', item: 'https://postcraft.ai/audience-loyalty' },
       { '@type': 'ListItem', position: 117, name: 'Content DNA Profiler', item: 'https://postcraft.ai/content-dna' },
       { '@type': 'ListItem', position: 118, name: 'Audience Mood Mapper', item: 'https://postcraft.ai/audience-mood' },
+      { '@type': 'ListItem', position: 119, name: 'Content Journey Mapper', item: 'https://postcraft.ai/content-journey' },
+      { '@type': 'ListItem', position: 120, name: 'Engagement Quality Score', item: 'https://postcraft.ai/engagement-quality' },
+      { '@type': 'ListItem', position: 121, name: 'Content Velocity Tracker', item: 'https://postcraft.ai/velocity-tracker' },
+      { '@type': 'ListItem', position: 122, name: 'Competitive Gap Finder', item: 'https://postcraft.ai/competitive-gap' },
+      { '@type': 'ListItem', position: 123, name: 'Content Workflow Builder', item: 'https://postcraft.ai/content-workflow' },
+      { '@type': 'ListItem', position: 124, name: 'Social Media Simulator', item: 'https://postcraft.ai/social-simulator' },
     ],
   },
 ];
@@ -301,6 +307,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/audience-loyalty" className="text-zinc-400 hover:text-white transition">Loyalty</a>
             <a href="/content-dna" className="text-zinc-400 hover:text-white transition">Content DNA</a>
             <a href="/audience-mood" className="text-zinc-400 hover:text-white transition">Mood Map</a>
+            <a href="/content-journey" className="text-zinc-400 hover:text-white transition">Journey</a>
+            <a href="/engagement-quality" className="text-zinc-400 hover:text-white transition">Quality</a>
+            <a href="/velocity-tracker" className="text-zinc-400 hover:text-white transition">Velocity</a>
+            <a href="/competitive-gap" className="text-zinc-400 hover:text-white transition">Gaps</a>
+            <a href="/content-workflow" className="text-zinc-400 hover:text-white transition">Workflow</a>
+            <a href="/social-simulator" className="text-zinc-400 hover:text-white transition">Simulator</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
