@@ -139,6 +139,10 @@ const jsonLd = [
       { '@type': 'ListItem', position: 95, name: 'Win Story Generator', item: 'https://postcraft.ai/win-story' },
       { '@type': 'ListItem', position: 96, name: 'Social Funnel Builder', item: 'https://postcraft.ai/funnel-builder' },
       { '@type': 'ListItem', position: 97, name: 'Content Decay Tracker', item: 'https://postcraft.ai/content-decay' },
+      { '@type': 'ListItem', position: 98, name: 'Testimonial Generator', item: 'https://postcraft.ai/testimonial-generator' },
+      { '@type': 'ListItem', position: 99, name: 'Trend Hijacking Generator', item: 'https://postcraft.ai/trend-hijacking' },
+      { '@type': 'ListItem', position: 100, name: 'Content Syndication Planner', item: 'https://postcraft.ai/content-syndication' },
+      { '@type': 'ListItem', position: 101, name: 'Micro-Community Builder', item: 'https://postcraft.ai/micro-community' },
     ],
   },
 ];
@@ -258,8 +262,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/content-rights" className="text-zinc-400 hover:text-white transition">Rights</a>
             <a href="/event-promo" className="text-zinc-400 hover:text-white transition">Events</a>
             <a href="/win-story" className="text-zinc-400 hover:text-white transition">Win Stories</a>
+            <a href="/testimonial-generator" className="text-zinc-400 hover:text-white transition">Testimonials</a>
+            <a href="/trend-hijacking" className="text-zinc-400 hover:text-white transition">Trend Hijack</a>
             <a href="/funnel-builder" className="text-zinc-400 hover:text-white transition">Funnel</a>
             <a href="/content-decay" className="text-zinc-400 hover:text-white transition">Decay</a>
+            <a href="/content-syndication" className="text-zinc-400 hover:text-white transition">Syndication</a>
+            <a href="/micro-community" className="text-zinc-400 hover:text-white transition">Community+</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>

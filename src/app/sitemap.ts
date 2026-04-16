@@ -154,5 +154,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/funnel-builder`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/content-decay`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/funnel-builder-content-decay-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/testimonial-generator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/trend-hijacking`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/testimonial-trend-hijacking-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/content-syndication`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/micro-community`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/content-syndication-micro-community-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }

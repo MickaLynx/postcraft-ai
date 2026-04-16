@@ -7,12 +7,28 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'content-syndication-micro-community-guide',
+    title: 'Content Syndication & Micro-Community Building: The Complete Distribution & Engagement Guide 2026',
+    excerpt: 'Master the CODA syndication framework, 7-day distribution timelines, and micro-community flywheels. Platform adaptation playbooks, member journey mapping, engagement rituals, monetization strategies, community health metrics, and the integrated content-community engine.',
+    date: '2026-04-16',
+    readTime: '30 min read',
+    tags: ['Content Syndication', 'Micro-Community', 'Content Distribution', 'Community Building', 'Engagement'],
+  },
+  {
     slug: 'funnel-builder-content-decay-guide',
     title: 'Social Media Funnel Builder & Content Decay Tracker: The Complete 2026 Guide to Conversion-Driven Content',
     excerpt: 'Map your social content to TOFU/MOFU/BOFU funnel stages and track content performance decay over time. Funnel scoring, content journey mapping, retargeting strategies, lead magnets, decay curves, half-life analysis, refresh scheduling, evergreen scoring, and the complete lifecycle management workflow.',
     date: '2026-04-16',
     readTime: '30 min read',
     tags: ['Marketing Funnel', 'Content Decay', 'Conversion Optimization', 'Content Lifecycle', 'Lead Generation', 'Evergreen Content'],
+  },
+  {
+    slug: 'testimonial-trend-hijacking-guide',
+    title: 'Testimonial Marketing + Trend Hijacking: The Complete 2026 Playbook',
+    excerpt: 'Master testimonial marketing and trend hijacking for social media. Collection strategies, 6 testimonial formats, strategic placement, legal compliance, 6-step rapid response framework, 6 angle types, risk assessment, and recovery plans.',
+    date: '2026-04-16',
+    readTime: '30 min read',
+    tags: ['Testimonials', 'Trend Hijacking', 'Social Proof', 'Newsjacking', 'Brand Growth'],
   },
   {
     slug: 'event-promo-win-story-guide',
