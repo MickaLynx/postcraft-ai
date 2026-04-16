@@ -170,6 +170,9 @@ const jsonLd = [
       { '@type': 'ListItem', position: 126, name: 'Content Review Optimizer', item: 'https://postcraft.ai/review-optimizer' },
       { '@type': 'ListItem', position: 127, name: 'Influencer Matchmaker', item: 'https://postcraft.ai/influencer-matchmaker' },
       { '@type': 'ListItem', position: 128, name: 'Content Collaboration Hub', item: 'https://postcraft.ai/content-collab' },
+      { '@type': 'ListItem', position: 129, name: 'Content Licensing Tracker', item: 'https://postcraft.ai/content-licensing' },
+      { '@type': 'ListItem', position: 130, name: 'Content Automation Engine', item: 'https://postcraft.ai/content-automation' },
+      { '@type': 'ListItem', position: 131, name: 'AI Ghostwriter', item: 'https://postcraft.ai/ghostwriter' },
     ],
   },
 ];
@@ -321,6 +324,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/review-optimizer" className="text-zinc-400 hover:text-white transition">Review</a>
             <a href="/influencer-matchmaker" className="text-zinc-400 hover:text-white transition">Matchmaker</a>
             <a href="/content-collab" className="text-zinc-400 hover:text-white transition">Collab</a>
+            <a href="/content-licensing" className="text-zinc-400 hover:text-white transition">Licensing</a>
+            <a href="/content-automation" className="text-zinc-400 hover:text-white transition">Automation</a>
+            <a href="/ghostwriter" className="text-zinc-400 hover:text-white transition">Ghostwriter</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>

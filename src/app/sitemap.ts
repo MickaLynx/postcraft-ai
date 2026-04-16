@@ -197,5 +197,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/influencer-matchmaker`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/content-collab`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/influencer-matchmaker-content-collab-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/content-licensing`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/review-optimizer-content-licensing-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/content-automation`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/ghostwriter`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/content-automation-ghostwriter-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }
