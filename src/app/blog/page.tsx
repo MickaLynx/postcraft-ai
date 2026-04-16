@@ -7,6 +7,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'story-arc-content-velocity-guide',
+    title: 'Story Arc Generation & Content Velocity: The Complete 2026 Guide to Building a Content Machine',
+    excerpt: 'Master narrative story arcs for social video content and optimize your content velocity. 10 arc styles, 7-beat structure, retention curve optimization, velocity scoring, batch production, and the 90-day acceleration plan.',
+    date: '2026-04-16',
+    readTime: '24 min read',
+    tags: ['Story Arc', 'Content Velocity', 'Video', 'Strategy', 'Productivity'],
+  },
+  {
     slug: 'dm-scripts-story-planner-guide',
     title: 'DM Scripts & Story Planning: The Complete 2026 Guide to Social Media Outreach',
     excerpt: 'Master cold DM outreach that gets replies and story content planning that builds narrative arcs. Follow-up sequences, engagement sticker strategy, Instagram/TikTok optimization, and conversion funnels.',

@@ -88,7 +88,15 @@ const jsonLd = [
       { '@type': 'ListItem', position: 46, name: 'Ad Copy Generator', item: 'https://postcraft.ai/ad-copy' },
       { '@type': 'ListItem', position: 47, name: 'Meme Generator', item: 'https://postcraft.ai/meme-generator' },
       { '@type': 'ListItem', position: 48, name: 'Monthly Report', item: 'https://postcraft.ai/monthly-report' },
-      { '@type': 'ListItem', position: 49, name: 'Blog', item: 'https://postcraft.ai/blog' },
+      { '@type': 'ListItem', position: 49, name: 'UGC Script Generator', item: 'https://postcraft.ai/ugc-scripts' },
+      { '@type': 'ListItem', position: 50, name: 'Platform Migration Planner', item: 'https://postcraft.ai/platform-migration' },
+      { '@type': 'ListItem', position: 51, name: 'Pricing Page Generator', item: 'https://postcraft.ai/pricing-page-gen' },
+      { '@type': 'ListItem', position: 52, name: 'Retention Playbook', item: 'https://postcraft.ai/retention-playbook' },
+      { '@type': 'ListItem', position: 53, name: 'Competitor Comparison', item: 'https://postcraft.ai/competitor-comparison' },
+      { '@type': 'ListItem', position: 54, name: 'Onboarding Emails', item: 'https://postcraft.ai/onboarding-emails' },
+      { '@type': 'ListItem', position: 55, name: 'Story Arc Generator', item: 'https://postcraft.ai/story-arc' },
+      { '@type': 'ListItem', position: 56, name: 'Content Velocity', item: 'https://postcraft.ai/content-velocity' },
+      { '@type': 'ListItem', position: 57, name: 'Blog', item: 'https://postcraft.ai/blog' },
     ],
   },
 ];
@@ -160,6 +168,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/angle-generator" className="text-zinc-400 hover:text-white transition">Angles</a>
             <a href="/meme-generator" className="text-zinc-400 hover:text-white transition">Memes</a>
             <a href="/monthly-report" className="text-zinc-400 hover:text-white transition">Report</a>
+            <a href="/ugc-scripts" className="text-zinc-400 hover:text-white transition">UGC Scripts</a>
+            <a href="/platform-migration" className="text-zinc-400 hover:text-white transition">Migration</a>
+            <a href="/pricing-page-gen" className="text-zinc-400 hover:text-white transition">Pricing</a>
+            <a href="/retention-playbook" className="text-zinc-400 hover:text-white transition">Retention</a>
+            <a href="/competitor-comparison" className="text-zinc-400 hover:text-white transition">Compare</a>
+            <a href="/onboarding-emails" className="text-zinc-400 hover:text-white transition">Emails</a>
+            <a href="/story-arc" className="text-zinc-400 hover:text-white transition">Story Arc</a>
+            <a href="/content-velocity" className="text-zinc-400 hover:text-white transition">Velocity</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
