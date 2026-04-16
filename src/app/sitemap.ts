@@ -208,5 +208,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/deadline-tracker`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/template-library`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/deadline-tracker-template-library-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/content-cannibalizer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/audience-overlap`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/content-cannibalization-audience-overlap-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }
