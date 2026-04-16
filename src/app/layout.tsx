@@ -166,6 +166,10 @@ const jsonLd = [
       { '@type': 'ListItem', position: 122, name: 'Competitive Gap Finder', item: 'https://postcraft.ai/competitive-gap' },
       { '@type': 'ListItem', position: 123, name: 'Content Workflow Builder', item: 'https://postcraft.ai/content-workflow' },
       { '@type': 'ListItem', position: 124, name: 'Social Media Simulator', item: 'https://postcraft.ai/social-simulator' },
+      { '@type': 'ListItem', position: 125, name: 'Brand Compliance Guardian', item: 'https://postcraft.ai/brand-guardian' },
+      { '@type': 'ListItem', position: 126, name: 'Content Review Optimizer', item: 'https://postcraft.ai/review-optimizer' },
+      { '@type': 'ListItem', position: 127, name: 'Influencer Matchmaker', item: 'https://postcraft.ai/influencer-matchmaker' },
+      { '@type': 'ListItem', position: 128, name: 'Content Collaboration Hub', item: 'https://postcraft.ai/content-collab' },
     ],
   },
 ];
@@ -313,6 +317,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/competitive-gap" className="text-zinc-400 hover:text-white transition">Gaps</a>
             <a href="/content-workflow" className="text-zinc-400 hover:text-white transition">Workflow</a>
             <a href="/social-simulator" className="text-zinc-400 hover:text-white transition">Simulator</a>
+            <a href="/brand-guardian" className="text-zinc-400 hover:text-white transition">Guardian</a>
+            <a href="/review-optimizer" className="text-zinc-400 hover:text-white transition">Review</a>
+            <a href="/influencer-matchmaker" className="text-zinc-400 hover:text-white transition">Matchmaker</a>
+            <a href="/content-collab" className="text-zinc-400 hover:text-white transition">Collab</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>

@@ -192,5 +192,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/content-workflow`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/social-simulator`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/content-workflow-social-simulator-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/brand-guardian`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/review-optimizer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/influencer-matchmaker`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/content-collab`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/influencer-matchmaker-content-collab-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }
