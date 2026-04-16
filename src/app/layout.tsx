@@ -115,6 +115,14 @@ const jsonLd = [
       { '@type': 'ListItem', position: 71, name: 'Cross-Platform Adapter', item: 'https://postcraft.ai/cross-platform' },
       { '@type': 'ListItem', position: 72, name: 'Audience Growth Planner', item: 'https://postcraft.ai/audience-growth' },
       { '@type': 'ListItem', position: 73, name: 'Sponsorship Pitch Generator', item: 'https://postcraft.ai/sponsorship-pitch' },
+      { '@type': 'ListItem', position: 74, name: 'Content Flow Optimizer', item: 'https://postcraft.ai/content-flow' },
+      { '@type': 'ListItem', position: 75, name: 'Insight Harvester', item: 'https://postcraft.ai/insight-harvester' },
+      { '@type': 'ListItem', position: 76, name: 'Newsletter Generator', item: 'https://postcraft.ai/newsletter-gen' },
+      { '@type': 'ListItem', position: 77, name: 'Podcast Promo Generator', item: 'https://postcraft.ai/podcast-promo' },
+      { '@type': 'ListItem', position: 78, name: 'Trend Predictor', item: 'https://postcraft.ai/trend-predictor' },
+      { '@type': 'ListItem', position: 79, name: 'Content Scaler', item: 'https://postcraft.ai/content-scaler' },
+      { '@type': 'ListItem', position: 80, name: 'Ad Compliance Scanner', item: 'https://postcraft.ai/ad-scanner' },
+      { '@type': 'ListItem', position: 81, name: 'Content Benchmark', item: 'https://postcraft.ai/content-benchmark' },
     ],
   },
 ];
@@ -212,6 +220,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/sponsorship-pitch" className="text-zinc-400 hover:text-white transition">Sponsorship</a>
             <a href="/emotion-mapper" className="text-zinc-400 hover:text-white transition">Emotions</a>
             <a href="/cross-platform" className="text-zinc-400 hover:text-white transition">Cross-Platform</a>
+            <a href="/content-flow" className="text-zinc-400 hover:text-white transition">Flow</a>
+            <a href="/insight-harvester" className="text-zinc-400 hover:text-white transition">Insights</a>
+            <a href="/newsletter-gen" className="text-zinc-400 hover:text-white transition">Newsletter</a>
+            <a href="/podcast-promo" className="text-zinc-400 hover:text-white transition">Podcast Promo</a>
+            <a href="/trend-predictor" className="text-zinc-400 hover:text-white transition">Predictions</a>
+            <a href="/content-scaler" className="text-zinc-400 hover:text-white transition">Scaler</a>
+            <a href="/ad-scanner" className="text-zinc-400 hover:text-white transition">Ad Scanner</a>
+            <a href="/content-benchmark" className="text-zinc-400 hover:text-white transition">Benchmark</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
