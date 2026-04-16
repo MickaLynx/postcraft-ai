@@ -148,5 +148,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/narrative-engine`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/content-rights`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/narrative-engine-content-rights-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/event-promo`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/win-story`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/event-promo-win-story-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/funnel-builder`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/content-decay`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/funnel-builder-content-decay-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }

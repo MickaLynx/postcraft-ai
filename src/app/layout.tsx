@@ -135,6 +135,10 @@ const jsonLd = [
       { '@type': 'ListItem', position: 91, name: 'Content Accessibility Checker', item: 'https://postcraft.ai/content-a11y' },
       { '@type': 'ListItem', position: 92, name: 'Narrative Engine', item: 'https://postcraft.ai/narrative-engine' },
       { '@type': 'ListItem', position: 93, name: 'Content Rights Vault', item: 'https://postcraft.ai/content-rights' },
+      { '@type': 'ListItem', position: 94, name: 'Event Promo Generator', item: 'https://postcraft.ai/event-promo' },
+      { '@type': 'ListItem', position: 95, name: 'Win Story Generator', item: 'https://postcraft.ai/win-story' },
+      { '@type': 'ListItem', position: 96, name: 'Social Funnel Builder', item: 'https://postcraft.ai/funnel-builder' },
+      { '@type': 'ListItem', position: 97, name: 'Content Decay Tracker', item: 'https://postcraft.ai/content-decay' },
     ],
   },
 ];
@@ -252,6 +256,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/content-a11y" className="text-zinc-400 hover:text-white transition">A11y</a>
             <a href="/narrative-engine" className="text-zinc-400 hover:text-white transition">Narrative</a>
             <a href="/content-rights" className="text-zinc-400 hover:text-white transition">Rights</a>
+            <a href="/event-promo" className="text-zinc-400 hover:text-white transition">Events</a>
+            <a href="/win-story" className="text-zinc-400 hover:text-white transition">Win Stories</a>
+            <a href="/funnel-builder" className="text-zinc-400 hover:text-white transition">Funnel</a>
+            <a href="/content-decay" className="text-zinc-400 hover:text-white transition">Decay</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>

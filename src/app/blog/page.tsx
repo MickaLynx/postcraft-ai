@@ -7,6 +7,22 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'funnel-builder-content-decay-guide',
+    title: 'Social Media Funnel Builder & Content Decay Tracker: The Complete 2026 Guide to Conversion-Driven Content',
+    excerpt: 'Map your social content to TOFU/MOFU/BOFU funnel stages and track content performance decay over time. Funnel scoring, content journey mapping, retargeting strategies, lead magnets, decay curves, half-life analysis, refresh scheduling, evergreen scoring, and the complete lifecycle management workflow.',
+    date: '2026-04-16',
+    readTime: '30 min read',
+    tags: ['Marketing Funnel', 'Content Decay', 'Conversion Optimization', 'Content Lifecycle', 'Lead Generation', 'Evergreen Content'],
+  },
+  {
+    slug: 'event-promo-win-story-guide',
+    title: 'Event Promotion & Customer Win Stories: The Complete Social Media Playbook 2026',
+    excerpt: 'Master event promotion campaigns and customer success storytelling. 30-day countdown plans, email sequences, partner kits, post-event follow-up, 6-stage story arc frameworks, quote extraction, multi-platform distribution, and amplification strategies.',
+    date: '2026-04-16',
+    readTime: '28 min read',
+    tags: ['Event Marketing', 'Customer Success', 'Social Proof', 'Case Studies', 'Content Distribution'],
+  },
+  {
     slug: 'social-policy-content-accessibility-guide',
     title: 'Social Media Policy & Content Accessibility: The Complete Enterprise Guide 2026',
     excerpt: 'Build bulletproof social media policies and make every piece of content accessible. Crisis protocols, compliance (GDPR, FTC, ADA), team roles, approval workflows, WCAG standards, inclusive language, alt text best practices, cognitive load optimization, and platform-specific accessibility features.',
