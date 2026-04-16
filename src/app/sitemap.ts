@@ -139,5 +139,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/tone-guard`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/cultural-pulse`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/tone-guard-cultural-pulse-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/content-cascade`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/mood-timing`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/content-cascade-mood-timing-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }

@@ -7,6 +7,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'content-cascade-mood-timing-guide',
+    title: 'Content Cascade + Mood Timing: The 2026 Guide to Multi-Platform Content Domination',
+    excerpt: 'Turn one piece of content into 30+ platform-optimized pieces and post them when your audience is emotionally primed. The 5-layer cascade framework, psychographic timing model, mood-based content mapping, and the complete workflow.',
+    date: '2026-04-16',
+    readTime: '26 min read',
+    tags: ['Content Cascade', 'Mood Timing', 'Multi-Platform', 'Content Strategy', 'Psychology'],
+  },
+  {
     slug: 'audience-growth-sponsorship-pitch-guide',
     title: 'Audience Growth Planner & Sponsorship Pitch Generator: Scale and Monetize Your Following',
     excerpt: 'Strategic audience growth roadmaps with milestones, platform hacks, and weekly action plans. Plus: professional sponsorship pitch templates, media kit stats, deliverable packages, negotiation tips, and follow-up sequences.',

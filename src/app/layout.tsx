@@ -129,6 +129,8 @@ const jsonLd = [
       { '@type': 'ListItem', position: 85, name: 'Performance Predictor', item: 'https://postcraft.ai/performance-predictor' },
       { '@type': 'ListItem', position: 86, name: 'ToneGuard', item: 'https://postcraft.ai/tone-guard' },
       { '@type': 'ListItem', position: 87, name: 'Cultural Pulse', item: 'https://postcraft.ai/cultural-pulse' },
+      { '@type': 'ListItem', position: 88, name: 'Content Cascade', item: 'https://postcraft.ai/content-cascade' },
+      { '@type': 'ListItem', position: 89, name: 'Mood Timing', item: 'https://postcraft.ai/mood-timing' },
     ],
   },
 ];
@@ -240,6 +242,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/performance-predictor" className="text-zinc-400 hover:text-white transition">Predictor</a>
             <a href="/tone-guard" className="text-zinc-400 hover:text-white transition">ToneGuard</a>
             <a href="/cultural-pulse" className="text-zinc-400 hover:text-white transition">Cultural Pulse</a>
+            <a href="/content-cascade" className="text-zinc-400 hover:text-white transition">Cascade</a>
+            <a href="/mood-timing" className="text-zinc-400 hover:text-white transition">Mood Timing</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
