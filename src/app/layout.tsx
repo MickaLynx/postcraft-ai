@@ -131,6 +131,10 @@ const jsonLd = [
       { '@type': 'ListItem', position: 87, name: 'Cultural Pulse', item: 'https://postcraft.ai/cultural-pulse' },
       { '@type': 'ListItem', position: 88, name: 'Content Cascade', item: 'https://postcraft.ai/content-cascade' },
       { '@type': 'ListItem', position: 89, name: 'Mood Timing', item: 'https://postcraft.ai/mood-timing' },
+      { '@type': 'ListItem', position: 90, name: 'Social Media Policy Generator', item: 'https://postcraft.ai/social-policy' },
+      { '@type': 'ListItem', position: 91, name: 'Content Accessibility Checker', item: 'https://postcraft.ai/content-a11y' },
+      { '@type': 'ListItem', position: 92, name: 'Narrative Engine', item: 'https://postcraft.ai/narrative-engine' },
+      { '@type': 'ListItem', position: 93, name: 'Content Rights Vault', item: 'https://postcraft.ai/content-rights' },
     ],
   },
 ];
@@ -244,6 +248,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/cultural-pulse" className="text-zinc-400 hover:text-white transition">Cultural Pulse</a>
             <a href="/content-cascade" className="text-zinc-400 hover:text-white transition">Cascade</a>
             <a href="/mood-timing" className="text-zinc-400 hover:text-white transition">Mood Timing</a>
+            <a href="/social-policy" className="text-zinc-400 hover:text-white transition">Policy</a>
+            <a href="/content-a11y" className="text-zinc-400 hover:text-white transition">A11y</a>
+            <a href="/narrative-engine" className="text-zinc-400 hover:text-white transition">Narrative</a>
+            <a href="/content-rights" className="text-zinc-400 hover:text-white transition">Rights</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
