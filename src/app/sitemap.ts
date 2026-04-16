@@ -168,5 +168,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/repurpose-calendar-proof-wall-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/audience-segmentation`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/content-scoring-audience-segmentation-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/brand-voice-analyzer`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/content-roi`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/conversation-depth`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/ecosystem-mapper`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/conversation-depth-ecosystem-mapper-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/influencer-vetting`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
   ];
 }

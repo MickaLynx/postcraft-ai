@@ -148,6 +148,11 @@ const jsonLd = [
       { '@type': 'ListItem', position: 104, name: 'Content Repurpose Calendar', item: 'https://postcraft.ai/repurpose-calendar' },
       { '@type': 'ListItem', position: 105, name: 'Social Proof Wall Builder', item: 'https://postcraft.ai/proof-wall' },
       { '@type': 'ListItem', position: 106, name: 'Audience Segmentation Engine', item: 'https://postcraft.ai/audience-segmentation' },
+      { '@type': 'ListItem', position: 107, name: 'Brand Voice Analyzer', item: 'https://postcraft.ai/brand-voice-analyzer' },
+      { '@type': 'ListItem', position: 108, name: 'Content ROI Tracker', item: 'https://postcraft.ai/content-roi' },
+      { '@type': 'ListItem', position: 109, name: 'Conversation Depth Predictor', item: 'https://postcraft.ai/conversation-depth' },
+      { '@type': 'ListItem', position: 110, name: 'Ecosystem Relevance Mapper', item: 'https://postcraft.ai/ecosystem-mapper' },
+      { '@type': 'ListItem', position: 111, name: 'Influencer Vetting Tool', item: 'https://postcraft.ai/influencer-vetting' },
     ],
   },
 ];
@@ -278,6 +283,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/repurpose-calendar" className="text-zinc-400 hover:text-white transition">Repurpose</a>
             <a href="/proof-wall" className="text-zinc-400 hover:text-white transition">Proof Wall</a>
             <a href="/audience-segmentation" className="text-zinc-400 hover:text-white transition">Segments</a>
+            <a href="/conversation-depth" className="text-zinc-400 hover:text-white transition">Depth</a>
+            <a href="/ecosystem-mapper" className="text-zinc-400 hover:text-white transition">Ecosystem</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
