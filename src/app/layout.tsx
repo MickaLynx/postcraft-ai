@@ -181,6 +181,8 @@ const jsonLd = [
       { '@type': 'ListItem', position: 137, name: 'Audience Overlap Analyzer', item: 'https://postcraft.ai/audience-overlap' },
       { '@type': 'ListItem', position: 138, name: 'Content Moat Builder', item: 'https://postcraft.ai/content-moat' },
       { '@type': 'ListItem', position: 139, name: 'Engagement Heatmap', item: 'https://postcraft.ai/engagement-heatmap' },
+      { '@type': 'ListItem', position: 140, name: 'Content Expiry Planner', item: 'https://postcraft.ai/content-expiry' },
+      { '@type': 'ListItem', position: 141, name: 'Social Media Risk Radar', item: 'https://postcraft.ai/risk-radar' },
     ],
   },
 ];
@@ -343,6 +345,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/audience-overlap" className="text-zinc-400 hover:text-white transition">Overlap</a>
             <a href="/content-moat" className="text-zinc-400 hover:text-white transition">Content Moat</a>
             <a href="/engagement-heatmap" className="text-zinc-400 hover:text-white transition">Heatmap</a>
+            <a href="/content-expiry" className="text-zinc-400 hover:text-white transition">Expiry</a>
+            <a href="/risk-radar" className="text-zinc-400 hover:text-white transition">Risk Radar</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>

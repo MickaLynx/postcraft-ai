@@ -214,5 +214,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/content-moat`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/engagement-heatmap`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/content-moat-engagement-heatmap-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/content-expiry`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/risk-radar`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/content-expiry-risk-radar-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }
