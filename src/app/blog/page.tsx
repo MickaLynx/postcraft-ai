@@ -7,6 +7,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'social-policy-content-accessibility-guide',
+    title: 'Social Media Policy & Content Accessibility: The Complete Enterprise Guide 2026',
+    excerpt: 'Build bulletproof social media policies and make every piece of content accessible. Crisis protocols, compliance (GDPR, FTC, ADA), team roles, approval workflows, WCAG standards, inclusive language, alt text best practices, cognitive load optimization, and platform-specific accessibility features.',
+    date: '2026-04-16',
+    readTime: '32 min read',
+    tags: ['Social Media Policy', 'Content Accessibility', 'WCAG', 'Compliance', 'Inclusive Content', 'ADA'],
+  },
+  {
     slug: 'content-cascade-mood-timing-guide',
     title: 'Content Cascade + Mood Timing: The 2026 Guide to Multi-Platform Content Domination',
     excerpt: 'Turn one piece of content into 30+ platform-optimized pieces and post them when your audience is emotionally primed. The 5-layer cascade framework, psychographic timing model, mood-based content mapping, and the complete workflow.',
