@@ -160,5 +160,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/content-syndication`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/micro-community`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/content-syndication-micro-community-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/community-guidelines`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/content-scoring`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/community-guidelines-content-scoring-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/repurpose-calendar`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/proof-wall`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/repurpose-calendar-proof-wall-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/audience-segmentation`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/content-scoring-audience-segmentation-guide`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ];
 }

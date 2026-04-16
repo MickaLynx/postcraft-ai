@@ -7,6 +7,30 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'content-scoring-audience-segmentation-guide',
+    title: 'Content Scoring & Audience Segmentation: The Complete 2026 Guide to Data-Driven Content Strategy',
+    excerpt: 'Master the 8-dimension content scoring matrix and audience segmentation engine. Score content across relevance, quality, engagement, SEO, and more. Segment audiences into actionable groups with buyer personas, channel strategies, content maps, and growth tactics.',
+    date: '2026-04-16',
+    readTime: '32 min read',
+    tags: ['Content Scoring', 'Audience Segmentation', 'Data-Driven Content', 'Buyer Personas', 'Content Strategy'],
+  },
+  {
+    slug: 'repurpose-calendar-proof-wall-guide',
+    title: 'Content Repurposing Calendar + Social Proof Wall: The Complete Distribution & Trust Guide 2026',
+    excerpt: 'Turn one piece of content into 15+ derivatives with systematic repurposing calendars. Build high-converting social proof walls with trust elements, conversion tactics, and collection automations.',
+    date: '2026-04-16',
+    readTime: '28 min read',
+    tags: ['Content Repurposing', 'Social Proof', 'Content Calendar', 'Trust Signals', 'Distribution'],
+  },
+  {
+    slug: 'community-guidelines-content-scoring-guide',
+    title: 'Community Guidelines & Content Scoring: The Complete Quality Framework 2026',
+    excerpt: 'Build professional community guidelines and score content before publishing. 6 rule sections, moderation workflows, onboarding sequences, role definitions, conflict protocols, 8-dimension scoring matrix, content audits, performance predictions, competitor gap analysis, and prioritized optimizations.',
+    date: '2026-04-16',
+    readTime: '28 min read',
+    tags: ['Community Guidelines', 'Content Scoring', 'Content Quality', 'Community Management', 'Moderation'],
+  },
+  {
     slug: 'content-syndication-micro-community-guide',
     title: 'Content Syndication & Micro-Community Building: The Complete Distribution & Engagement Guide 2026',
     excerpt: 'Master the CODA syndication framework, 7-day distribution timelines, and micro-community flywheels. Platform adaptation playbooks, member journey mapping, engagement rituals, monetization strategies, community health metrics, and the integrated content-community engine.',

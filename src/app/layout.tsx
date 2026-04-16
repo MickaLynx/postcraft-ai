@@ -143,6 +143,11 @@ const jsonLd = [
       { '@type': 'ListItem', position: 99, name: 'Trend Hijacking Generator', item: 'https://postcraft.ai/trend-hijacking' },
       { '@type': 'ListItem', position: 100, name: 'Content Syndication Planner', item: 'https://postcraft.ai/content-syndication' },
       { '@type': 'ListItem', position: 101, name: 'Micro-Community Builder', item: 'https://postcraft.ai/micro-community' },
+      { '@type': 'ListItem', position: 102, name: 'Community Guidelines Generator', item: 'https://postcraft.ai/community-guidelines' },
+      { '@type': 'ListItem', position: 103, name: 'Content Scoring Matrix', item: 'https://postcraft.ai/content-scoring' },
+      { '@type': 'ListItem', position: 104, name: 'Content Repurpose Calendar', item: 'https://postcraft.ai/repurpose-calendar' },
+      { '@type': 'ListItem', position: 105, name: 'Social Proof Wall Builder', item: 'https://postcraft.ai/proof-wall' },
+      { '@type': 'ListItem', position: 106, name: 'Audience Segmentation Engine', item: 'https://postcraft.ai/audience-segmentation' },
     ],
   },
 ];
@@ -268,6 +273,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <a href="/content-decay" className="text-zinc-400 hover:text-white transition">Decay</a>
             <a href="/content-syndication" className="text-zinc-400 hover:text-white transition">Syndication</a>
             <a href="/micro-community" className="text-zinc-400 hover:text-white transition">Community+</a>
+            <a href="/community-guidelines" className="text-zinc-400 hover:text-white transition">Guidelines</a>
+            <a href="/content-scoring" className="text-zinc-400 hover:text-white transition">Scoring</a>
+            <a href="/repurpose-calendar" className="text-zinc-400 hover:text-white transition">Repurpose</a>
+            <a href="/proof-wall" className="text-zinc-400 hover:text-white transition">Proof Wall</a>
+            <a href="/audience-segmentation" className="text-zinc-400 hover:text-white transition">Segments</a>
             <a href="/use-cases" className="text-zinc-400 hover:text-white transition">Use Cases</a>
             <a href="/blog" className="text-zinc-400 hover:text-white transition">Blog</a>
           </div>
